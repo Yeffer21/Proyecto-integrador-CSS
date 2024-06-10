@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="../Proyecto integrador/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../Proyecto integrador/Logo-De-Lolita_act_blanco (1).png" alt="Logo De Lolita">
+        </div>
+        <div class="menu">
+            <nav>
+                <ul class="opciones">
+                    <li><a href="..//Proyecto integrador/index.html" class="uno"><b>Iniciar sesión</b></a></li>
+                    <li class="desplegable">
+                        <a href="#" class="boton-desplegable"><b>Nuevo registro</b></a>
+                        <ul class="contenido-desplegable">
+                            <li><a href="..//Proyecto integrador/empleados.html">Empleados</a></li>
+                            <li><a href="..//Proyecto integrador/provedores.html">Proveedores</a></li>
+                            <li><a href="..//Proyecto integrador/seccion-almacen.html">Sección de almacén</a></li>
+                            <li><a href="#">Productos</a></li>
+                            <li><a href="..//Proyecto integrador/area-produccion.html">Área de producción</a></li>
+                            <li><a href="..//Proyecto integrador/abastecimiento.html">Abastecimiento</a></li>
+                        </ul>
+                    </li>                 
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="formulario"> 
+                <p><b>Registrar ingreso de producto</b></p>          
+                <form>
+                    <label for="cod-producto">Código del producto</label>
+                    <input type="text" name="cod-producto" id="cod-producto" placeholder="Ingrese código del producto" required>   
+                    <br>
+                    <label for="nombre">Nombre del producto</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingrese mombre del producto" required>
+                    <br>                    
+                    <label for="unidad-medida">Unidad de medida</label>
+                    <select name="unidad-medida" id="unidad-medida">
+                        <option value="seleccione">--selecione--</option>
+                        <option value="Litro">Litro</option>
+                        <option value="kilo">Kilo</option>
+                        <option value="Libra">Libra</option>
+                        <option value="Gramo">Gramo</option>
+                    </select>
+                    <br>
+                    <label for="cantidad">Cantidad</label>
+                    <input type="number" name="cantidad" id="cantidad" placeholder="Ingrese cantidad del producto" required>
+                    <br>
+                    <label for="id-sección">Id de la sección</label>
+                    <input type="text" name="id-sección" id="id-sección" placeholder="Ingrese id de sección" required>
+                    <br>
+                    <label for="id-empleado">Id del empleado</label>
+                    <input type="text" name="id-empleado" id="id-empleado" placeholder="Ingrese id del empleado" required>
+                    <br>
+                    <label for="id-proveedor">Id del provedor</label>
+                    <input type="text" name="id-proveedor" id="id-proveedor" placeholder="Ingrese id del proveedor" required>                    
+                </form>
+                <button class="guardar"><a href="#"><b>Guardar</b></a></button>     
+        </div> 
+    </main>        
+    <footer>
+        <div class="footer1">
+            <div class="logo-f">
+                <img src="../Proyecto integrador/Logo-De-Lolita_act_blanco (1).png" alt="Logo De Lolita">
+            </div>
+            <div class="iconos">
+                <p>Síguenos en</p>
+                <div class="redes">
+                    <img src="../Proyecto integrador/instagram.png" alt="Instagram">
+                    <img src="../Proyecto integrador/twitter.png" alt="Twitter">
+                    <img src="../Proyecto integrador/youtube.png" alt="YouTube">
+                </div>
+            </div>
+        </div> 
+        <div class="footer2">
+           <p>Copyright © 2024, Todos Los Derechos Reservados | Creado Por: Yeferson Taborda Caro</p>
+        </div>
+    </footer>
+</body>
+</html>
